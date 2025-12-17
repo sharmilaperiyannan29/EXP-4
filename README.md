@@ -36,14 +36,31 @@ PROCEDURE:
 
 CIRCUIT DIAGRAMS
 
-Half wave rectifier with filter:
+Half wave rectifier:
 
-Bridge rectifier with filter:
+Waveform:
+
+
 
 TABULAR COLUMN
+
+
+| Input Voltage | Without Filter (V) | t (ms) | With Filter (V) | t (ms) |
+|---------------|--------------------|--------|------------------|--------|
+| 100 V / 20 ms | 100 V              | 10 ms  | 100.86 V         | 5 ms, 25 ms |
+
+
+
 Rectifier without filter
+
+
+
 TABULAR COLUMN
-Rectifier with filter
+
+| Input Voltage | Time (ms) | Output Voltage (Without Filter) | Time (ms) | Output Voltage (With Filter) | Time (ms) |
+|---------------|-----------|----------------------------------|-----------|-------------------------------|-----------|
+| 50 V          | 20 ms     | 50 V                             | 5 ms      | 50.46 V                       | 5 ms, 14 ms |
+
 
 WAVEFORM:
 
