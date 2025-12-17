@@ -37,32 +37,88 @@ PROCEDURE:
 CIRCUIT DIAGRAMS
 
 Half wave rectifier:
+![WhatsApp Image 2025-12-17 at 09 06 23_bfd02dd3](https://github.com/user-attachments/assets/0bd4b82c-11f5-4ee8-9cea-a9c5bde9d783)
 
 Waveform:
+<img width="945" height="488" alt="Screenshot 2025-12-17 090543" src="https://github.com/user-attachments/assets/d595b1dc-092f-4b72-8849-4eaa5eadd307" />
 
 
 
 TABULAR COLUMN
 
+<table border="1" cellspacing="0" cellpadding="6">
+  <tr>
+    <th rowspan="2" colspan="2">Input Voltage</th>
+    <th colspan="4">Output Voltage</th>
+  </tr>
+  <tr>
+    <th colspan="2">Without Filter</th>
+    <th colspan="2">With Filter</th>
+  </tr>
+  <tr>
+    <th>Vm (V)</th>
+    <th>t (ms)</th>
+    <th>Vm (V)</th>
+    <th>t (ms)</th>
+    <th>Vm (V)</th>
+    <th>t (ms)</th>
+  </tr>
+  <tr>
+    <td>100</td>
+    <td>20</td>
+    <td>100</td>
+    <td>10</td>
+    <td>100V, 5V</td>
+    <td>5 ms, 25 ms</td>
+  </tr>
+</table>
 
-| Input Voltage | Without Filter (V) | t (ms) | With Filter (V) | t (ms) |
-|---------------|--------------------|--------|------------------|--------|
-| 100 V / 20 ms | 100 V              | 10 ms  | 100.86 V         | 5 ms, 25 ms |
+Full wave rectifier:
+
+![WhatsApp Image 2025-12-17 at 09 06 23_f762cf4e](https://github.com/user-attachments/assets/b6ad3ae4-24e1-43ae-adbd-52bca951e8a5)
 
 
 
-Rectifier without filter
+Waveform:
+<img width="937" height="495" alt="Screenshot 2025-12-17 090605" src="https://github.com/user-attachments/assets/7007d877-f94f-4675-a8d3-4dac0b2e1c06" />
+
+
+
 
 
 
 TABULAR COLUMN
+<table border="1" cellspacing="0" cellpadding="6">
+  <tr>
+    <th rowspan="2" colspan="2">Input Voltage</th>
+    <th colspan="4">Output Voltage</th>
+  </tr>
+  <tr>
+    <th colspan="2">Without Filter</th>
+    <th colspan="2">With Filter</th>
+  </tr>
+  <tr>
+    <th>Vm (V)</th>
+    <th>t (ms)</th>
+    <th>Vm (V)</th>
+    <th>t (ms)</th>
+    <th>Vm (V)</th>
+    <th>t (ms)</th>
+  </tr>
+  <tr>
+    <td>50</td>
+    <td>20</td>
+    <td>50</td>
+    <td>5</td>
+    <td>50, 46</td>
+    <td>5 ms, 14 ms</td>
+  </tr>
+</table>
 
-| Input Voltage | Time (ms) | Output Voltage (Without Filter) | Time (ms) | Output Voltage (With Filter) | Time (ms) |
-|---------------|-----------|----------------------------------|-----------|-------------------------------|-----------|
-| 50 V          | 20 ms     | 50 V                             | 5 ms      | 50.46 V                       | 5 ms, 14 ms |
 
 
-WAVEFORM:
+
+
 
 
 RESULT:
